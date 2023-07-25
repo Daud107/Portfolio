@@ -1,0 +1,167 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.hero__img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+
+.hero__subtitle {
+    color: var(--clr-slate800);
+    font-size: var(--sizes-base);
+    line-height: 0.9;
+}
+
+.hero__title {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    letter-spacing: -0.05em;    
+    font-size: var(--sizes-4xl);
+}
+
+.hero__discription {
+            color: var(--clr-slate600);
+            font-size: var(--sizes-sm);
+            max-width: 60vh;
+}
+
+.hero__btn{
+        font-size: var(--sizes-sm);
+}
+
+ /* xs */
+@media (min-width: 475px) {
+    .hero {
+        gap: 1.5rem;
+    }
+
+    .hero__img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    
+    .hero__subtitle {
+        font-size: var(--sizes-lg);
+    }
+    
+    .hero__title {
+        font-size: var(--sizes-4xl);
+    }
+    
+    .hero__discription {
+                font-size: var(--sizes-base);
+    }
+    
+    .hero__btn{
+            font-size: var(--sizes-base);
+    }
+    
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+
+/* sm */
+/* @media (min-width: 768px) {} */
+
+
+/* lg */
+@media (min-width: 1024px) {
+    
+    .hero__img {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .hero__subtitle {
+        font-size: var(--sizes-2xl);
+    }
+    
+    .hero__title {
+        font-size: var(--sizes-6xl);
+    }
+    
+    .hero__discription {
+                font-size: var(--sizes-lg);
+    }
+    
+    .hero__btn{
+            font-size: var(--sizes-lg);
+    }
+}
+
+
+/* xl */
+@media (min-width: 1280px) {
+   
+     .hero{
+        gap: 2rem;
+     }
+
+    .hero__img {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .hero__subtitle {
+        font-size: var(--sizes-4xl);
+    }
+    
+    .hero__title {
+        font-size: var(--sizes-8xl);
+    }
+    
+    .hero__discription {
+                font-size: var(--sizes-xl);
+    }
+    
+    .hero__btn{
+            font-size: var(--sizes-xl);
+    }
+}
+
+
+/* 2xl */
+/* @media (min-width: 1536) {} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+--sizes-xxs: 0.5rem;
+--sizes-xs: 0.75rem;
+--sizes-sm: 0.875rem;
+--sizes-base: 1rem;
+--sizes-lg: 1.125rem;
+--sizes-xl: 1.25rem;
+--sizes-2xl: 1.875rem;
+--sizes-3xl: 2.25rem;
+--sizes-4xl: 3rem;
+--sizes-5xl: 3.65rem;
+--sizes-6xl: 4.5rem;
+--sizes-7xl: 6rem;
+--sizes-8xl: 8rem;
+--sizes-9xl: 10rem;
+
+}

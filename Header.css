@@ -1,0 +1,73 @@
+.header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+}
+
+.header__link {
+    font-size: var(--sizes-sm);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-slate600);
+    letter-spacing: ;
+}
+
+
+
+
+
+
+
+
+/* * xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+
+/* sm */
+/* @media (min-width: 768px) {} */
+
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+
+/* 2xl */
+/* @media (min-width: 1536) {} */ 
+
+
+
+*{
+    /* sizes */
+    --sizes-xxs: 0.5rem;
+    --sizes-xs: 0.75rem;
+    --sizes-sm: 0.875rem;
+    --sizes-base: 1rem;
+    --sizes-lg: 1.125rem;
+    --sizes-xl: 1.25rem;
+    --sizes-2xl: 1.875rem;
+    --sizes-3xl: 2.25rem;
+    --sizes-4xl: 3rem;
+    --sizes-5xl: 3.65rem;
+    --sizes-6xl: 4.5rem;
+    --sizes-7xl: 6rem;
+    --sizes-8xl: 8rem;
+    --sizes-9xl: 10rem;
+
+}

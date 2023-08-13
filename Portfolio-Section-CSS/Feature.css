@@ -17,6 +17,7 @@
 .feature__link {
     width: var(--sizes-2xl);
     height: var(--sizes-2xl);
+    color: #e11d48;
  }
 
  .feature__dis{
@@ -51,7 +52,7 @@
 
 .feature__info {
     font-size: var(--sizes-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
 }
 
 .feature__img-container {

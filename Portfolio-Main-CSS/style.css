@@ -38,7 +38,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -61,7 +61,7 @@ button {
     display: inline-block;
     padding: 0;
     border: none;
-    cursor: grab;
+    cursor: copy;
     background: none;
     color: inherit;
 }
@@ -73,3 +73,19 @@ a {
 strong {
     color: var(--clr-indigo);
 }
+
+/* scollbar  */
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-rose);
+    outline: 1px solid var(--clr-rose);
+  }

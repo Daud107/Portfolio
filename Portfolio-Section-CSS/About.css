@@ -19,7 +19,7 @@
 .about__discription {
     max-width: 60ch;
     font-size: var(--sizes-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
 }
 
 .about__hr {
@@ -47,7 +47,7 @@
 
 .about__list {
     font-size: var(--sizes-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
 }
 
 .about__list::before {

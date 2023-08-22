@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+section>div,
+hr,
+img {
+    margin-bottom: 1rem;
+}
+
+.section__1 {
+    width: 35%;
+    height: auto;
+    background: #082f49;
+    color: aliceblue;
+}
+
+.hr {
+    padding-top: 2rem;
+    border-left: 0;
+}
+
+.Section__div-img {
+    display: flex;
+    justify-content: center;
+}
+
+.section__img {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.section__contect {
+    margin-left: 3rem;
+}
+
+.contact__title {
+    text-decoration-line: underline;
+    text-decoration-color: aliceblue;
+    text-underline-offset: 1rem;
+    text-transform: uppercase;
+}
+
+.contact__list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.contact__list>li {
+    margin-top: 0.5em;
+}
+
+.contact__list>li>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contact__list>li>a>svg {
+    width: 1rem;
+}
+
+.contact__list>li>a>b {
+    margin-left: 3px;
+
+}
+
+
+.skill__title {
+    margin-left: 3rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+
+
+.skill__list {
+    margin-left: 3rem;
+    list-style: none;
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+
+.skill__list>li {
+    margin-top: 1.5rem;
+    border-bottom: solid 8px;
+    width: 80%;
+    text-underline-offset: 1em;
+}
+
+.language {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.language>h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+    margin-bottom: 1.5rem;
+}
+
+.language__p {
+    display: flex;
+    margin-top: 0.5em;
+    text-transform: capitalize;
+    padding-right: 1em;
+}
+
+.section__hr-bottom {
+    margin-top: 13rem;
+    width: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #082f49;
+    outline: 1px solid #082f49;
+}
+
+/* 
+.language__span{
+    color: aqua;
+} */

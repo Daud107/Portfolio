@@ -1,0 +1,71 @@
+main {
+    display: flex;
+}
+
+
+.section__2-box {
+
+    width: 80%;
+    text-align: center;
+    border: 0px solid;
+    height: 8rem;
+    padding: 10px 0;
+    margin: 1rem auto;
+    background: rgb(212, 210, 210);
+}
+
+.section__2-box>h1 {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-underline-offset: 1rem;
+    margin-bottom: 1em;
+}
+
+
+.section__2-box>h4 {
+    text-transform: capitalize;
+    color: rgb(77, 74, 71);
+}
+
+.content {
+    width: auto;
+    margin: 3rem 3rem;
+}
+
+.profil>h2 {
+    text-decoration-line: underline;
+    text-underline-offset: 12px;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: #122633;
+}
+
+
+.experience {
+    margin-top: 1.5rem;
+}
+
+.experience>h2 {
+    text-decoration-line: underline;
+    text-underline-offset: 12px;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: #122633;
+}
+
+.experience__title {
+    display: flex;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.exerience__list {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.education__p {
+    margin-bottom: -2rem !important;
+}
+

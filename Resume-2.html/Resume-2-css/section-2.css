@@ -1,0 +1,68 @@
+.section-2 {
+    width: 50%;
+}
+
+.section-2>div {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.-hr {
+    height: 2.5px;
+    color: black;
+    background: black;
+    margin-bottom: 5px;
+}
+
+h4 {
+    text-transform: capitalize;
+    color: rgb(38, 36, 36);
+    margin-top: 8px !important;
+}
+
+h5 {
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
+p,
+li {
+    font-size: medium;
+    color: rgb(38, 36, 36);
+}
+
+ul>li {
+    margin-left: 1em;
+}
+
+.-hr-1 {
+    margin-top: 1rem;
+}
+
+.section-2 svg {
+    color: rgb(38, 36, 36);
+    ;
+}
+
+
+.-education {
+    display: flex;
+    align-items: center;
+}
+
+.education-GPA {
+    margin-top: 2em;
+    margin-left: 3em;
+    border-left: 1px solid;
+    padding: 5px 8px;
+
+}
+
+.-GPA {
+    color: goldenrod;
+}
